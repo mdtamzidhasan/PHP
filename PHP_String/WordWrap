@@ -1,0 +1,4 @@
+<?php
+$str="It is a long establishedrrrrrrrrrrrrrrrrrrrrrrrrrrr\nrrrrrrrrrrr fact that a reader will be distract\ned by the readable content of a page \nwhen looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing";
+echo wordwrap($str,26,"\n",true);
+echo nl2br($str);
